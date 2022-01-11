@@ -11,9 +11,9 @@ You must have the Python interpreter installed to use the script.
 Instructions: 
 * open a Command Prompt
 * enter the name of the interpreter (python)
-* enter the path of the script separated by a space 
-* enter the path to the first file separated by a space 
-* enter the path to the second file separated by a space
+* enter the path to the script after a space 
+* enter the path to the first file after a space 
+* enter the path to the second file after a space
 * run the line
 
 Input format: \
