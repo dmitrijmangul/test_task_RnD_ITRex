@@ -14,7 +14,7 @@ Manual:
 * enter the path to the script after a space 
 * enter the path to the first file after a space 
 * enter the path to the second file after a space
-* run the line
+* run the command
 
 Input format: \
 python <\pathtoapp> <\pathtofile1> <\pathtofile2>
