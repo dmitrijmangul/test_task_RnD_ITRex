@@ -3,7 +3,7 @@
 The script provides for cases: 
 * the names(keys) is in different positions in the first and second files
 * the names(keys) include different characters and has a different case of letters
-* the name(key) is not specified in one of the files
+* one of the files does not contain a name(key)
 * both files are identical
 
 You must have the Python interpreter installed to use the script.
