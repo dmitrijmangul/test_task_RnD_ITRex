@@ -18,7 +18,7 @@ def diff_json(a, b):
         if type(value_a) is dict:  # recursion
             diff_json(a=value_a, b=b)
         key_a_norm = ''.join(char for char in key_a if char.isalpha()).lower()  # one style to compare
-        if key_a_norm not in set_keys_norm_b:  # checking for a common variable
+        if key_a_norm not in set_keys_norm_b:  # checking for a mutual key
             output_list.append([f'file A: {key_a} - {value_a}', f'file B: value not set'])
         for key_b, value_b in b.items():
             if type(value_b) is dict:  # recursion
@@ -27,7 +27,7 @@ def diff_json(a, b):
             if key_a_norm == key_b_norm and value_a != value_b and type(value_b) is not dict:  # difference
                 diff = True
                 output_list.append([f'file A: {key_a} - {value_a}', f'file B: {key_b} - {value_b}'])
-            if key_b_norm not in set_keys_norm_a:  # checking for a common variable
+            if key_b_norm not in set_keys_norm_a:  # checking for a mutual key
                 output_list.append([f'file A: value not set', f'file B: {key_b} - {value_b}'])
 
 
@@ -59,7 +59,7 @@ diff_json(data_a, data_b)
 if not diff:
     print('both files are identical')
 
-# Function to filter out repetitions.
+# to filter out repetitions.
 helper_list = []
 for i in output_list:
     if i not in helper_list:
