@@ -8,7 +8,7 @@ The script provides for cases:
 
 You must have the Python interpreter installed to use the script.
 
-Instructions: 
+Manual: 
 * open a Command Prompt
 * enter the name of the interpreter (python)
 * enter the path to the script after a space 
