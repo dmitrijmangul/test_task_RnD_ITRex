@@ -19,7 +19,7 @@ def diff_json(a, b):
             diff_json(a=value_a, b=b)
         key_a_norm = ''.join(char for char in key_a if char.isalpha()).lower()  # one style to compare
         if key_a_norm not in set_keys_norm_b:  # checking for a mutual key
-            output_list.append([f'file A: {key_a} - {value_a}', f'file B: value not set'])
+            output_list.append([f'file A: {key_a} - {value_a}', f'file B: not set'])
         for key_b, value_b in b.items():
             if type(value_b) is dict:  # recursion
                 diff_json(a={key_a: value_a}, b=value_b)
@@ -28,7 +28,7 @@ def diff_json(a, b):
                 diff = True
                 output_list.append([f'file A: {key_a} - {value_a}', f'file B: {key_b} - {value_b}'])
             if key_b_norm not in set_keys_norm_a:  # checking for a mutual key
-                output_list.append([f'file A: value not set', f'file B: {key_b} - {value_b}'])
+                output_list.append([f'file A: not set', f'file B: {key_b} - {value_b}'])
 
 
 def set_keys_norm(x):
