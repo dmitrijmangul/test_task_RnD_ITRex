@@ -27,6 +27,6 @@ file A: firstName - John \
 file B: first_name - Alex
 
 file A: postalCode - 10021-3100 \
-file B: value not set
+file B: not set
 
 The comparison is complete.
