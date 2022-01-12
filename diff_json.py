@@ -57,7 +57,7 @@ output_list = list()
 diff_json(data_a, data_b)
 
 if not diff:
-    print('both files are identical')
+    print('both files are identical', end='\n\n')
 
 # to filter out repetitions.
 helper_list = []
