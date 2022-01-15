@@ -6,10 +6,10 @@
 * one of the files does not contain a name(key)
 * both files are identical
 
-You must have the Python interpreter installed to use the script.
+___You must have the [Python interpreter](https://www.python.org/downloads/) installed to use the script.___
 
 ### Manual: 
-* open a Command Prompt
+* open a [Command Prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/)
 * enter the name of the interpreter (python)
 * enter the path to the script after a space 
 * enter the path to the first file after a space 
