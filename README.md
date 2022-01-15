@@ -17,16 +17,20 @@ You must have the Python interpreter installed to use the script.
 * run the command
 
 ### Input format:
-python <<pathtoscript>pathtoscript> <<pathtofile1>pathtofile1> <<pathtofile2>pathtofile2>
+```
+python <pathtoscript> <pathtofile1> <pathtofile2>
+```
 
 ### Output format example: 
 
+```
 The difference between two input JSON files:
 
-file A: firstName - John \
+file A: firstName - John
 file B: first_name - Alex
 
-file A: postalCode - 10021-3100 \
+file A: postalCode - 10021-3100
 file B: not set
 
 The comparison is complete.
+```
