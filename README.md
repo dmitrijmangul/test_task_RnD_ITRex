@@ -11,7 +11,7 @@ ___You must have the [Python interpreter](https://www.python.org/downloads/) ins
 ### Manual: 
 * open a [Command Prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/)
 * enter the name of the interpreter (python)
-* enter the path to the script after a space 
+* enter the [path](https://www.thedataschool.co.uk/robbin-vernooij/easy-access-folder-paths-command-prompt-cmd-windows-windows-server) to the script after a space 
 * enter the path to the first file after a space 
 * enter the path to the second file after a space
 * run the command
